@@ -1,6 +1,8 @@
 semver-greatest-satisfied-range
 ===============================
 
+[![Build Status](https://travis-ci.org/phated/semver-greatest-satisfied-range.svg?branch=master)](https://travis-ci.org/phated/semver-greatest-satisfied-range)
+
 Find the greatest satisfied semver range from an array of ranges.
 
 ## Usage
