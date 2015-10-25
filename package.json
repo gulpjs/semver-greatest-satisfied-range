@@ -4,11 +4,13 @@
   "description": "Find the greatest satisfied semver range from an array of ranges.",
   "main": "index.js",
   "scripts": {
+    "lint": "eslint . && jscs index.js test/",
+    "pretest": "npm run lint",
     "test": "lab -cv"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/phated/semver-greatest-satisfied-range"
+    "url": "https://github.com/gulpjs/semver-greatest-satisfied-range"
   },
   "keywords": [
     "semver",
@@ -22,11 +24,15 @@
   "author": "Blaine Bublitz <blaine@iceddev.com> (http://iceddev.com/)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/phated/semver-greatest-satisfied-range/issues"
+    "url": "https://github.com/gulpjs/semver-greatest-satisfied-range/issues"
   },
-  "homepage": "https://github.com/phated/semver-greatest-satisfied-range",
+  "homepage": "https://github.com/gulpjs/semver-greatest-satisfied-range",
   "devDependencies": {
     "code": "^1.2.1",
+    "eslint": "^1.7.3",
+    "eslint-config-gulp": "^2.0.0",
+    "jscs": "^2.4.0",
+    "jscs-preset-gulp": "^1.0.0",
     "lab": "^5.1.1"
   },
   "dependencies": {
