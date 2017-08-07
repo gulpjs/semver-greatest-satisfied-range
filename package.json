@@ -2,15 +2,40 @@
   "name": "semver-greatest-satisfied-range",
   "version": "1.0.0",
   "description": "Find the greatest satisfied semver range from an array of ranges.",
+  "author": "Gulp Team <team@gulpjs.com> (http://gulpjs.com/)",
+  "contributors": [
+    "Blaine Bublitz <blaine.bublitz@gmail.com>"
+  ],
+  "repository": "gulpjs/semver-greatest-satisfied-range",
+  "license": "MIT",
+  "engines": {
+    "node": ">= 0.10"
+  },
   "main": "index.js",
+  "files": [
+    "index.js",
+    "LICENSE"
+  ],
   "scripts": {
     "lint": "eslint . && jscs index.js test/",
     "pretest": "npm run lint",
-    "test": "lab -cv"
+    "test": "mocha --async-only",
+    "cover": "istanbul cover _mocha --report lcovonly",
+    "coveralls": "npm run cover && istanbul-coveralls"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/gulpjs/semver-greatest-satisfied-range"
+  "dependencies": {
+    "semver": "^4.2.0",
+    "semver-regex": "^1.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^1.7.3",
+    "eslint-config-gulp": "^2.0.0",
+    "expect": "^1.19.0",
+    "istanbul": "^0.4.3",
+    "istanbul-coveralls": "^1.0.3",
+    "jscs": "^2.3.5",
+    "jscs-preset-gulp": "^1.0.0",
+    "mocha": "^2.4.5"
   },
   "keywords": [
     "semver",
@@ -20,23 +45,5 @@
     "range",
     "array",
     "greatest"
-  ],
-  "author": "Blaine Bublitz <blaine@iceddev.com> (http://iceddev.com/)",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/gulpjs/semver-greatest-satisfied-range/issues"
-  },
-  "homepage": "https://github.com/gulpjs/semver-greatest-satisfied-range",
-  "devDependencies": {
-    "code": "^1.2.1",
-    "eslint": "^1.7.3",
-    "eslint-config-gulp": "^2.0.0",
-    "jscs": "^2.4.0",
-    "jscs-preset-gulp": "^1.0.0",
-    "lab": "^5.1.1"
-  },
-  "dependencies": {
-    "semver": "^4.2.0",
-    "semver-regex": "^1.0.0"
-  }
+  ]
 }
