@@ -23,11 +23,13 @@ var range = findRange('1.1.0', ['^1.0.0', '^1.1.0', '^1.2.0']);
 
 ### `findRange(version, rangeArray)`
 
-Takes a version and array of ranges, returns the greatest satisfied range.
+Takes a version and array of ranges, returns the greatest satisfied range. Range support is defined by [sver-compat][range-support].
 
 ## License
 
 MIT
+
+[range-support]: https://github.com/phated/sver-compat#range-support
 
 [downloads-image]: http://img.shields.io/npm/dm/semver-greatest-satisfied-range.svg
 [npm-url]: https://www.npmjs.com/package/semver-greatest-satisfied-range
