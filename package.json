@@ -24,8 +24,7 @@
     "coveralls": "npm run cover && istanbul-coveralls"
   },
   "dependencies": {
-    "semver": "^4.2.0",
-    "semver-regex": "^1.0.0"
+    "sver-compat": "^1.3.5"
   },
   "devDependencies": {
     "eslint": "^1.7.3",

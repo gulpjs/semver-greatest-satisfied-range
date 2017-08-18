@@ -20,7 +20,7 @@ describe('findRange', function() {
 
   it('returns null with no matching ranges', function(done) {
     var range = findRange('1.2.0', ['~1.0.0', '~1.1.0']);
-    expect(range).toEqual(null);
+    expect(range).toBe(null);
     done();
   });
 
