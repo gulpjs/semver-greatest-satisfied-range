@@ -24,7 +24,7 @@
     "coveralls": "npm run cover && istanbul-coveralls"
   },
   "dependencies": {
-    "sver-compat": "^1.3.5"
+    "sver-compat": "^1.5.0"
   },
   "devDependencies": {
     "eslint": "^1.7.3",
