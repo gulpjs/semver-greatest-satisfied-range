@@ -24,6 +24,12 @@ describe('findRange', function() {
     done();
   });
 
+  it('returns null when given no ranges', function(done) {
+    var range = findRange('1.2.0');
+    expect(range).toBe(null);
+    done();
+  });
+
   it('prerelease ranges', function(done) {
     var range = findRange('1.0.0-alpha.1', ['^1.0.0-alpha.1', '^1.0.0-beta.1']);
     expect(range).toEqual('^1.0.0-alpha.1');
