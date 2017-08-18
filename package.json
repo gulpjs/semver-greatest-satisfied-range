@@ -1,6 +1,6 @@
 {
   "name": "semver-greatest-satisfied-range",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Find the greatest satisfied semver range from an array of ranges.",
   "main": "index.js",
   "scripts": {
