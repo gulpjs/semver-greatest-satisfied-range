@@ -22,7 +22,7 @@
     "test": "nyc mocha --async-only"
   },
   "dependencies": {
-    "sver-compat": "^1.5.0"
+    "sver": "^1.8.3"
   },
   "devDependencies": {
     "eslint": "^7.32.0",
