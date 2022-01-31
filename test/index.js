@@ -55,7 +55,7 @@ describe('findRange', function() {
   });
 
   it('newer prerelease versions should not be satisfied by a previous stable range', function(done) {
-    var range = findRange('1.0.1-beta.1', ['^1.0.0', '^1.0.0-alpha.1', '^1.0.0-alpha.2']);
+    var range = findRange('1.0.1-alpha.1', ['^1.0.0', '^1.0.0-alpha.1', '^1.0.0-alpha.2']);
     expect(range).toEqual(null);
     done();
   });
