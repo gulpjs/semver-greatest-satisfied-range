@@ -29,7 +29,6 @@ Takes a version and array of ranges, returns the greatest satisfied range. Range
 
 MIT
 
-
 <!-- prettier-ignore-start -->
 [downloads-image]: https://img.shields.io/npm/dm/semver-greatest-satisfied-range.svg?style=flat-square
 [npm-url]: https://www.npmjs.com/package/semver-greatest-satisfied-range
