@@ -1,6 +1,6 @@
-'use strict';
+"use strict";
 
-var SemverRange = require('sver').SemverRange;
+var SemverRange = require("sver").SemverRange;
 
 function findRange(version, ranges) {
   ranges = ranges || [];

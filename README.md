@@ -13,9 +13,9 @@ Find the greatest satisfied semver range from an array of ranges.
 ## Usage
 
 ```js
-var findRange = require('semver-greatest-satisfied-range');
+var findRange = require("semver-greatest-satisfied-range");
 
-var range = findRange('1.1.0', ['^1.0.0', '^1.1.0', '^1.2.0']);
+var range = findRange("1.1.0", ["^1.0.0", "^1.1.0", "^1.2.0"]);
 // range === '^1.1.0'
 ```
 
