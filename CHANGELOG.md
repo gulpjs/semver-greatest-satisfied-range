@@ -1,5 +1,16 @@
 # Changelog
 
+## [3.0.0](https://github.com/gulpjs/semver-greatest-satisfied-range/compare/v2.0.0...v3.0.0) (2026-10-08)
+
+
+### ⚠ BREAKING CHANGES
+
+* Normalize repository, dropping Node <22.15.0 ([#14](https://github.com/gulpjs/semver-greatest-satisfied-range/issues/14))
+
+### Miscellaneous Chores
+
+* Normalize repository, dropping Node &lt;22.15.0 ([#14](https://github.com/gulpjs/semver-greatest-satisfied-range/issues/14)) ([a565572](https://github.com/gulpjs/semver-greatest-satisfied-range/commit/a5655724afba14b67189d7a4a0714628038c91cb))
+
 ## [2.0.0](https://www.github.com/gulpjs/semver-greatest-satisfied-range/compare/v1.1.0...v2.0.0) (2022-01-31)
 
 
