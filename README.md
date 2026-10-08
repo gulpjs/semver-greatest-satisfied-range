@@ -50,3 +50,7 @@ MIT
 [coveralls-url]: https://coveralls.io/r/gulpjs/semver-greatest-satisfied-range
 [coveralls-image]: https://img.shields.io/coveralls/gulpjs/semver-greatest-satisfied-range/main.svg?style=flat-square
 <!-- prettier-ignore-end -->
+
+<!-- prettier-ignore-start -->
+[range-support]: https://github.com/guybedford/sver#range-support
+<!-- prettier-ignore-end -->
