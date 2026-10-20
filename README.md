@@ -21,10 +21,10 @@ var range = findRange("1.1.0", ["^1.0.0", "^1.1.0", "^1.2.0"]);
 
 ## API
 
-Takes a version and array of ranges, returns the greatest satisfied range. Range support is defined by [sver][range-support].
 
 ### `findRange(version, rangeArray)`
 
+Takes a version and array of ranges, returns the greatest satisfied range. Range support is defined by [sver][range-support].
 ## Strict No LLM / No AI Policy
 
 No LLMs for issues.
